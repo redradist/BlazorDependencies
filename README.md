@@ -8,7 +8,7 @@ Only thing you need to do is specify `blazorDeps.json` file in `wwwroot` that de
 the following code instead of your `<script src="_framework/blazor.webassembly.js" autostart='false'></script>` tag:
 ```html
     <script src="_framework/blazor.webassembly.js" autostart='false'></script>
-    <script src="blazor.dependencies.js"></script>
+    <script src="scripts/blazor.dependencies.js"></script>
     <script>
         window.blazorDepsPromise.then(() => {
             Blazor.start();

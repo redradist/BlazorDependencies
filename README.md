@@ -5,7 +5,7 @@ This library helps maintan dependecies for Razor Class Library for scripts and s
 Take a look at sample in `sample/` folder
 
 Only thing you need to do is specify `blazorDeps.json` file in `wwwroot` that describe dependecies and add
-the following code instead of your `<script src="_framework/blazor.webassembly.js" autostart='false'></script>` tag:
+the following code instead of your `<script src="_framework/blazor.webassembly.js"></script>` tag:
 ```html
     <script src="_framework/blazor.webassembly.js" autostart='false'></script>
     <script src="scripts/blazor.dependencies.js"></script>

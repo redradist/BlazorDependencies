@@ -41,7 +41,7 @@ Here is example of `index.html`:
         <a class="dismiss">🗙</a>
     </div>
     <script src="_framework/blazor.webassembly.js" autostart='false'></script>
-    <script src="https://github.com/redradist/Blazor.Dependecies/src/blazor.dependencies.js"></script>
+    <script src="scripts/blazor.dependencies.js"></script>
     <script>
         window.blazorDepsPromise.then(() => {
             Blazor.start();

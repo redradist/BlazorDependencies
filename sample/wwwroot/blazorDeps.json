@@ -10,5 +10,9 @@
   {
     "type": "script",
     "url": "_content/BlazorGooglePay/blazorGooglePay.js"
+  },
+  {
+    "type": "style",
+    "url": "_content/BlazorGooglePay/blazorGooglePay.css"
   }
 ]

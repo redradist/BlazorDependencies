@@ -5,14 +5,22 @@
   },
   {
     "type": "script",
-    "url": "_content/BrowserInterop/scripts.js"
+    "url": "_content//scripts.js"
   },
   {
     "type": "script",
     "url": "_content/BlazorGooglePay/blazorGooglePay.js"
   },
   {
-    "type": "style",
+    "type": "Razor Class Library",
+    "name": "BrowserInterop"
+  },
+  {
+    "type": "RCL",
+    "name": "BrowserInterop"
+  },
+  {
+	"type": "style",
     "url": "_content/BlazorGooglePay/blazorGooglePay.css"
   }
 ]

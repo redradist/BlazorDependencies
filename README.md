@@ -4,8 +4,37 @@ This library helps maintan dependecies for Razor Class Library for scripts and s
 
 Take a look at sample in `sample/` folder
 
-Only thing you need to do is specify `blazorDeps.json` file in `wwwroot` that describe dependecies and add
-the following code instead of your `<script src="_framework/blazor.webassembly.js"></script>` tag:
+Only thing you need to do is specify `blazorDeps.json` file in `wwwroot`:
+```json
+[
+  {
+    "type": "script",
+    "url": "https://pay.google.com/gp/p/js/pay.js"
+  },
+  {
+    "type": "script",
+    "url": "_content//scripts.js"
+  },
+  {
+    "type": "script",
+    "url": "_content/BlazorGooglePay/blazorGooglePay.js"
+  },
+  {
+    "type": "Razor Class Library",
+    "name": "BrowserInterop"
+  },
+  {
+    "type": "RCL",
+    "name": "BrowserInterop"
+  },
+  {
+    "type": "style",
+    "url": "_content/BlazorGooglePay/blazorGooglePay.css"
+  }
+]
+```
+
+that describe dependecies and add the following code instead of your `<script src="_framework/blazor.webassembly.js"></script>` tag:
 ```html
     <script src="_framework/blazor.webassembly.js" autostart='false'></script>
     <script src="https://cdn.jsdelivr.net/gh/redradist/Blazor.Dependecies/src/blazor.dependencies.js"></script>

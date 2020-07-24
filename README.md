@@ -17,7 +17,7 @@ the following code instead of your `<script src="_framework/blazor.webassembly.j
 ```
 
 Here is example of `index.html`:
-```hmtl
+```html
 <!DOCTYPE html>
 <html>
 

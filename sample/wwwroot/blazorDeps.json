@@ -20,7 +20,7 @@
     "name": "BrowserInterop"
   },
   {
-	"type": "style",
+    "type": "style",
     "url": "_content/BlazorGooglePay/blazorGooglePay.css"
   }
 ]
